@@ -208,7 +208,9 @@ footer{
     margin-bottom: 0;
     /* margin: 0 100px; */
     max-width: 1240px;
-   margin: 215px auto;
+   margin: 0 auto;
+   margin-top: 215px;
+   
     /* background-color: red; */
 }
 .footer-flex-container {
@@ -220,12 +222,16 @@ footer{
     text-align: center;
     row-gap: 20px;
 }
+.footer-flex{
+    text-align: left;
+}
 footer h3 {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
     color: #514949;
     margin-bottom: 0.5rem;
+
 }
 footer p{
     font-size: 14px;
@@ -237,6 +243,9 @@ footer p{
 .contact-icons img{
     width: 18px;
     margin-right: 5px;
+}
+.contact{
+    text-align: left;
 }
 
 
